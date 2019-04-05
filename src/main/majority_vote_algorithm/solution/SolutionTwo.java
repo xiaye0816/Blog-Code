@@ -7,8 +7,6 @@ import main.majority_vote_algorithm.AbstractFindMajoritySolution;
  */
 public class SolutionTwo extends AbstractFindMajoritySolution {
 
-
-
     @Override
     public Integer findMajority(final int[] array) {
 
