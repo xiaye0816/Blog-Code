@@ -1,1 +1,1 @@
-# Blog-Code
+Code Samples for the Blog
