@@ -1,11 +1,11 @@
-package main.majority_vote_algorithm;
+package main.algorithm.majorityvote;
 
+import main.algorithm.majorityvote.solution.SolutionTwo;
 import org.junit.Assert;
 import org.junit.Test;
 
-import main.majority_vote_algorithm.solution.SolutionOne;
-import main.majority_vote_algorithm.solution.SolutionThree;
-import main.majority_vote_algorithm.solution.SolutionTwo;
+import main.algorithm.majorityvote.solution.SolutionOne;
+import main.algorithm.majorityvote.solution.SolutionThree;
 
 /**
  * @author ShaoGuoQing   2019/4/6

@@ -1,4 +1,4 @@
-package main.majority_vote_algorithm;
+package main.algorithm.majorityvote;
 
 import java.util.Arrays;
 

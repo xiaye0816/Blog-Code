@@ -1,8 +1,8 @@
-package main.majority_vote_algorithm.solution;
+package main.algorithm.majorityvote.solution;
+
+import main.algorithm.majorityvote.AbstractFindMajoritySolution;
 
 import java.util.Arrays;
-
-import main.majority_vote_algorithm.AbstractFindMajoritySolution;
 
 /**
  * @author ShaoGuoQing   2019/4/5

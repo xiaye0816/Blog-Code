@@ -1,9 +1,8 @@
-package main.majority_vote_algorithm;
+package main.algorithm.majorityvote;
 
+import main.algorithm.majorityvote.solution.SolutionExtended;
 import org.junit.Assert;
 import org.junit.Test;
-
-import main.majority_vote_algorithm.solution.SolutionExtended;
 
 /**
  * @author ShaoGuoQing   2019/4/6
