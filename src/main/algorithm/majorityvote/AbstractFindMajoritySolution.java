@@ -3,8 +3,8 @@ package main.algorithm.majorityvote;
 import java.util.Arrays;
 
 /**
- * @author shaoguoqing
  * The type Abstract find majority solution.
+ * @author shaoguoqing
  */
 public abstract class AbstractFindMajoritySolution {
 

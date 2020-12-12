@@ -1,21 +1,18 @@
 package main.algorithm.majorityvote;
 
-import main.algorithm.majorityvote.solution.SolutionTwo;
+import main.algorithm.majorityvote.solution.SolutionExtended;
 import org.junit.Assert;
 import org.junit.Test;
-
-import main.algorithm.majorityvote.solution.SolutionOne;
-import main.algorithm.majorityvote.solution.SolutionThree;
 
 /**
  * @author ShaoGuoQing   2019/4/6
  */
-public class TestFindMajorityBeyondOneHalfSolution {
+public class FindMajorityOverOneThirdSolutionTest {
 
     int[] array1 = {3, 2, 3};
-    int[] array2 = {2, 2, 1, 1, 1, 2, 2};
+    int[] array2 = {2, 2, 4, 5, 6, 2, 2};
     int[] array3 = {1, 2, 3, 4, 5, 6};
-    int[] array4 = {1, 1, 1, 2, 2, 2};
+    int[] array4 = {1, 1, 2, 2, 3, 3};
 
     Integer target1 = 3;
     Integer target2 = 2;
@@ -23,21 +20,9 @@ public class TestFindMajorityBeyondOneHalfSolution {
     Integer target4 = null;
 
     @Test
-    public void testSolutionOne() {
-        doTest(new SolutionOne());
-    }
+    public void solutionExtendTest() {
 
-    @Test
-    public void testSolutionTwo() {
-        doTest(new SolutionTwo());
-    }
-
-    @Test
-    public void testSolutionThree() {
-        doTest(new SolutionThree());
-    }
-
-    private void doTest(AbstractFindMajoritySolution solution) {
+        AbstractFindMajoritySolution solution = new SolutionExtended();
 
         Integer res1 = solution.findMajority(array1);
         Integer res2 = solution.findMajority(array2);
@@ -48,7 +33,6 @@ public class TestFindMajorityBeyondOneHalfSolution {
         Assert.assertEquals(target2, res2);
         Assert.assertEquals(target3, res3);
         Assert.assertEquals(target4, res4);
-
     }
 
 }
